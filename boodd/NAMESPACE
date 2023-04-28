@@ -1,0 +1,57 @@
+export(
+	"boots",
+	"plot.boodd",
+	"confint.boodd",
+	"summary.boodd",
+	"bootsemi",
+	"blockboot",
+	"regenboot",
+	"freqboot",
+	"aidedboot",
+	"sieveboot",
+	"bootglm",
+	"fieldboot",
+	"findBestEpsilon",
+	"smallEnsemble",
+	"fastNadaraya",
+	"seasonalMean",
+	"seasonalVar",
+	"seasonalACF",
+	"meanCoeff",
+	"acfCoeff",
+	"embb.sample",
+	"qVar",
+	"jackVar",
+	"jackVarBlock",
+	"jackVarRegen",
+	"jackVarField",
+	"jackFunc",
+	"jackFuncBlock"
+)
+
+S3method(plot,boodd)
+S3method(summary,boodd)
+S3method(confint,boodd)
+
+S3method(seasonalMean,default)
+S3method(seasonalMean,ts)
+S3method(seasonalMean,embb)
+S3method(seasonalVar,default)
+S3method(seasonalVar,ts)
+S3method(seasonalVar,embb)
+S3method(seasonalACF,default)
+S3method(seasonalACF,ts)
+S3method(seasonalACF,embb)
+S3method(meanCoeff,default)
+S3method(meanCoeff,ts)
+S3method(meanCoeff,embb)
+S3method(acfCoeff,default)
+S3method(acfCoeff,ts)
+S3method(acfCoeff,embb)
+
+
+importFrom("graphics","abline","hist","layout","lines","plot",
+             "text")
+importFrom("stats","IQR","arima","coef","density","dnorm",
+             "frequency","is.ts","median","qnorm","quantile",
+             "residuals","rgeom","runif","sd","ts","spec.pgram")

@@ -1,0 +1,53 @@
+% ===========================================================================
+% File: "boodd.Rnw"
+%                        Created: 2017-05-30 09:18:44
+%              Last modification: 2017-05-30 09:18:44
+% Author: Bernard Desgraupes
+% e-mail: <bernard.desgraupes@u-paris10.fr>
+% This file is part of the boodd project.
+% ===========================================================================
+% 
+% % Vignette meta-information
+% % -------------------------
+%\VignetteIndexEntry{An R Package associated with the book ``Bootstrap for Dependent Data``}
+%\VignetteDepends{boodd}
+%\VignetteKeywords{boodd}
+%\VignettePackage{boodd}
+
+
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsopn}
+\usepackage{amsthm}
+\usepackage{amscd}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+
+\pagestyle{myheadings}
+\markright{Package boodd for R}
+
+\begin{document}
+
+
+\title{boodd}
+\author{Bernard Desgraupes\
+University Paris Ouest\
+Lab Modal'X}
+\date{\small mai 2017}
+
+\maketitle
+
+\hrule
+\vspace{5mm}
+\tableofcontents
+\vspace{5mm}
+\hrule
+\newpage
+
+
+\end{document}
